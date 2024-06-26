@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gorshok_ai" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Gorshok_ai" parent="Base.Theme.Gorshok_ai" />
+
+    <style name="MainStyle">
+        <item name="android:background">#feca84</item>
+        <item name="android:textColor">#24272f</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="224dp"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/selectBtn"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="take image"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/takeBtn"
+            android:layout_below="@+id/selectBtn"/>
+        <Button
+            android:id="@+id/predictBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="predict image"
+            android:layout_below="@+id/takeBtn"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/res1View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="false"/>
+    <TextView
+        android:id="@+id/res2View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res1View"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="false"/>
+    <TextView
+        android:id="@+id/res3View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res2View"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="false"/>
+    <TextView
+        android:id="@+id/res4View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res3View"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="false"/>
+    <TextView
+        android:id="@+id/res5View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res4View"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textSize="15dp"
+        android:layout_centerHorizontal="false"/>
+
+</RelativeLayout>
